@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Split Pizza Cost Calculator</title>
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="splitPizzaBill.js"></script>
 </head>
 <body>
-<button onclick="splitCost()">Calculate Cost</button>
+<!-- <button onclick="splitCost()">Calculate Cost</button> -->
+
+<!-- Input text areas -->
+<label for="toppings">Total Number of Toppings</label>
+<input id="toppings" type="text">
+
+<br>
+
+<label for="people">Total Number of People</label>
+<input id="people" type="number">
+
+<!-- New Button -->
+<button>Calculate Cost</button>
+
+<!-- Output Paragraph -->
+<p id="costPerPerson"></p>
+
 
 
 </body>

@@ -1,3 +1,14 @@
+//page load
+$(document).ready(
+    function(){
+        //find button with jquery
+
+        //assign function splitCost to run when button is clicked
+        $("button").click(splitCost);
+    }
+);
+
+
 function splitCost(){
     let numOfTopping = parseInt(prompt("How many topping are on the pizza? "));
 
